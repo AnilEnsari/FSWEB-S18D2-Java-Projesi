@@ -13,7 +13,7 @@ import java.util.Optional;
 @Service
 public class VegetableImpl implements VegetableService {
 
-VegetableRepository vegetableRepository;
+private VegetableRepository vegetableRepository;
 @Autowired
     public VegetableImpl(VegetableRepository vegetableRepository) {
         this.vegetableRepository = vegetableRepository;
